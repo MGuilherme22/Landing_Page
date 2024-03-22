@@ -7,10 +7,12 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1{
-    margin: 35px 0px 35px 15px;
+    margin: 35px 0px 20px 15px;
     font-size: 50px;
     color: white;
-
+}
+h1 b{
+    color: rgba(202, 6, 6, 0.925);
 }
 main{
     display: flex;
@@ -22,7 +24,7 @@ main{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.822), rgba(8, 8, 8, 0.678)), url("/img/imagem-de-fundo.png");
+    background-image: linear-gradient(to left top, rgba(187, 5, 5, 0.397), rgba(8, 8, 8, 0.753)), url("/img/imagem-de-fundo.png");
 }
 .logo{
     width: 100px;
@@ -32,6 +34,10 @@ main{
 p{
     color: white;
     margin-left: 15px;
+}
+.Inauguração{
+    color: rgba(177, 7, 7, 0.925);
+    font-size: 20px;
 }
 .paragrafo{
     width: 750px;
