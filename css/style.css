@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    margin: 35px 0px 35px 15px;
+    font-size: 50px;
+    color: white;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1000px;
+    height: auto;
+    background-image: url("/img/imagem-de-fundo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.822), rgba(8, 8, 8, 0.678)), url("/img/imagem-de-fundo.png");
+}
+.logo{
+    width: 100px;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+}
+p{
+    color: white;
+    margin-left: 15px;
+}
+.paragrafo{
+    width: 750px;
+}
+.cadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 20px 0px 20px 20px;
+}
