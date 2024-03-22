@@ -48,7 +48,7 @@ p{
 }
 .paragrafo{
     width: 720px;
-    font-weight: 450;
+    font-weight: 4900;
     line-height: 23px;
 }
 .cadastro{
@@ -58,6 +58,7 @@ p{
     margin: 20px 0px 20px 15px;
 }
 input [type=text], input[type=text]{
+    padding-left: 15px;
     margin-right: 50px;
     width: 200px;
     height: 50px;
