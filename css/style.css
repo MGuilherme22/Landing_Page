@@ -20,8 +20,9 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 850px;
-    height: 620px;
+    width: 1000px;
+    height: 630px;
+    border-radius: 8px;
     background-image: url("/img/imagem-de-fundo.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -50,6 +51,7 @@ p{
     width: 720px;
     font-weight: 4900;
     line-height: 23px;
+    text-align: justify;
 }
 .cadastro{
     display: flex;
