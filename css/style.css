@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: black;
+   background: linear-gradient(to left bottom, rgb(0, 0, 0), rgba(202, 6, 6, 0.822));
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1{
@@ -23,6 +23,7 @@ main{
     width: 1000px;
     height: 630px;
     border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     background-image: url("/img/imagem-de-fundo.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
