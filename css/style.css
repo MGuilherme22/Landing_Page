@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-   background: linear-gradient(to left bottom, rgb(0, 0, 0), rgba(202, 6, 6, 0.822));
+   background: linear-gradient(to left, rgb(0, 0, 0), rgb(202, 6, 6));
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1{
@@ -28,7 +28,7 @@ main{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: linear-gradient(to left top, rgba(70, 3, 3, 0.438), rgb(0, 0, 0)), url("/img/imagem-de-fundo.png");
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 0, 0, 0.11)), url("/img/imagem-de-fundo.png");
 }
 .logo{
     width: 100px;
