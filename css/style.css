@@ -5,6 +5,7 @@ body{
     min-height: 100vh;
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, rgba(202, 6, 6, 0.925), rgba(146, 8, 8, 0.281));
 }
 h1{
     margin: 35px 0px 18px 15px;
@@ -21,7 +22,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 80%;
+    width: 60%;
     height: auto;
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -29,83 +30,7 @@ main{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 0, 0, 0.11)), url("/img/imagem-de-fundo.png");
-}
-@media screen and (max-width: 768px){
-    h1{
-        font-size: 40px;
-        text-align: center;
-    }
-    main .Inauguração, .endereco{
-        text-align: center;
-    }
-    main{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 90%;
-    }
-    main .paragrafo{
-        width: 350px;
-        text-align: center;
-    }
-}
-@media screen and (max-width: 480px) {
-    h1{
-        font-size: 50px;
-        text-align: center;
-    }
-    main .Inauguração, .endereco{
-        text-align: center;
-    }
-    main{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        height: auto;
-        background-image: url("/img/imagem-de-fundo.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(71, 2, 2, 0.308)), url("/img/imagem-de-fundo.png");
-    }
-    main .paragrafo{
-        width: 390px;
-        text-align: center;
-        font-weight: 400;
-    }
-    main .cadastro{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-    input[type=text],[type=text] {
-        width: 65% !important;
-        margin: 0px 0px 15px 0px !important;
-        text-align: center !important;
-        padding-left: 0px !important;
-        font-size: 15px !important;
-    }
-    button{
-        background-color: rgba(202, 6, 6, 0.925) !important;
-        color: white !important;
-        border: none !important;
-        border-radius: 10px !important;
-        width: 295px !important;
-        height: 60px !important;
-        margin-top: 40px !important;
-        font-weight: 800 !important;
-
-    }
-    button:hover{
-        background-color: white !important;
-        color: rgba(202, 6, 6, 0.925) !important;
-        font-weight: 650 !important;
-    }
-    
-
-
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(97, 4, 4, 0.295)), url("/img/imagem-de-fundo.png");
 }
 
 .logo{
@@ -163,4 +88,93 @@ button:hover{
     color: rgba(202, 6, 6, 0.925);
     font-weight: 650;
 }
+@media screen and (max-width: 840px){
+    h1{
+        font-size: 40px;
+        text-align: left;
+    }
+    main .Inauguração, .endereco{
+        text-align: left;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        height: auto;
+        background-image: url("/img/imagem-de-fundo.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(71, 2, 2, 0.308)), url("/img/imagem-de-fundo.png");
+    }
+    main .paragrafo{
+        width: 600px;
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1{
+        font-size: 40px;
+        text-align: center;
+        margin: 0px;
+    }
+    main .Inauguração{
+        font-size: 18px;
+        text-align: center;
+    }
+    main .endereco{
+        font-size: 16px;
+        text-align: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        background-image: url("/img/imagem-de-fundo.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(71, 2, 2, 0.308)), url("/img/imagem-de-fundo.png");
+    }
+    main .paragrafo{
+        width: 340px;
+        text-align: center;
+        font-weight: 400;
+        margin: 10px 0px 10px 0px;
+    }
+    main .cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    input[type=text],[type=text] {
+        width: 80% !important;
+        margin: 0px 0px 15px 0px !important;
+        text-align: center !important;
+        padding-left: 0px !important;
+        font-size: 15px !important;
+    }
+    button{
+        background-color: rgba(202, 6, 6, 0.925) !important;
+        color: white !important;
+        border: none !important;
+        border-radius: 10px !important;
+        width: 280px !important;
+        height: 60px !important;
+        margin-top: 22px !important;
+        font-weight: 800 !important;
+
+    }
+    button:hover{
+        background-color: white !important;
+        color: rgba(202, 6, 6, 0.925) !important;
+        font-weight: 650 !important;
+    }
+    
+
+
+}
+
 
