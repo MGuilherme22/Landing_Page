@@ -22,7 +22,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 60%;
+    width: 90%;
     height: auto;
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -80,7 +80,7 @@ button{
     color: white;
     border: none;
     border-radius: 10px;
-    width: 120px;
+    width: 200px;
     font-weight: 650;
 }
 button:hover{
